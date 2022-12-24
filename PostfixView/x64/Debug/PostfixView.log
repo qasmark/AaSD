@@ -1,0 +1,86 @@
+﻿  PostfixView.cpp
+C:\web-dev\PostfixView\PostfixView.cpp(309,32): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(256,61): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(675): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const char,int>::pair<char,double,0>(std::pair<char,double> &&) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const char,int>::pair<char,double,0>(std::pair<char,double> &&) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(804): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<char,double>>(_Alloc &,_Objty *const ,std::pair<char,double> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<std::allocator<std::pair<const char,int>>>::void_pointer>>,
+              _Ty=std::pair<const char,int>,
+              _Objty=std::pair<const char,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(805): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<char,double>>(_Alloc &,_Objty *const ,std::pair<char,double> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<std::allocator<std::pair<const char,int>>>::void_pointer>>,
+              _Ty=std::pair<const char,int>,
+              _Objty=std::pair<const char,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(992): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const char,int>>,
+              _Ty=std::pair<char,double>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<std::allocator<std::pair<const char,int>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1005): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const char,int>>,
+              _Ty=std::pair<char,double>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<std::allocator<std::pair<const char,int>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1029): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<char,double>>(std::pair<char,double> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const char,int>>,
+              _Kty=char,
+              _Ty=int,
+              _Pr=std::less<char>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1030): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const char,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<char,double>>(std::pair<char,double> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const char,int>>,
+              _Kty=char,
+              _Ty=int,
+              _Pr=std::less<char>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\map(163): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<char,double>>(std::pair<char,double> &&)"
+          with
+          [
+              _Kty=char,
+              _Ty=int,
+              _Pr=std::less<char>,
+              _Alloc=std::allocator<std::pair<const char,int>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\map(163): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<char,double>>(std::pair<char,double> &&)"
+          with
+          [
+              _Kty=char,
+              _Ty=int,
+              _Pr=std::less<char>,
+              _Alloc=std::allocator<std::pair<const char,int>>
+          ]
+C:\web-dev\PostfixView\PostfixView.cpp(305): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,bool> std::map<char,int,std::less<char>,std::allocator<std::pair<const char,int>>>::insert<std::pair<char,double>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<char,double>
+          ]
+C:\web-dev\PostfixView\PostfixView.cpp(305): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,bool> std::map<char,int,std::less<char>,std::allocator<std::pair<const char,int>>>::insert<std::pair<char,double>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<char,double>
+          ]
+C:\web-dev\PostfixView\PostfixView.cpp(287): warning C4715: calc: значение возвращается не при всех путях выполнения
+C:\web-dev\PostfixView\PostfixView.cpp(183): warning C4715: priority: значение возвращается не при всех путях выполнения
+  PostfixView.vcxproj -> C:\web-dev\PostfixView\x64\Debug\PostfixView.exe

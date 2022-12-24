@@ -1,0 +1,7 @@
+Sweets o
+.Chocolate 1
+.Ice_cream 5
+.Cookies a
+..Sugar 3
+..Milk 8
+..Banana 4
