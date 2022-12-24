@@ -1,0 +1,11 @@
+Condition a
+.name o
+..Olya 4
+..Sveta 5
+..Vika 6
+.fruits o
+..apple 8
+..grapes 2
+.cost o
+..sale 4
+..price 21
